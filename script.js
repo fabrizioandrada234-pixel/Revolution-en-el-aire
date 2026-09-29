@@ -1,0 +1,1 @@
+document.querySelectorAll('audio').forEach(a=>a.addEventListener('play',()=>{document.querySelectorAll('audio').forEach(o=>{if(o!==a)o.pause()})}));
